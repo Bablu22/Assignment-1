@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -77,7 +80,7 @@ header{
     border-radius: 10px;
     color: white;
     font-weight: bold;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2);
 }
 /* ========== About Area ========= */
 .about-area{
@@ -102,4 +105,33 @@ header{
     text-align: justify;
     padding-bottom: 20px;
     color: gray;
+}
+
+/* ========== Recipies area ============ */
+.recipie-area{
+    padding-bottom: 200px;
+}
+.recipie-head{
+    text-align: center;
+    padding-top: 15px;
+}
+.recipie-head h2{
+    font-size: 2.2em;
+    color: tomato;
+}
+.recipie-head p{
+    text-align: inherit;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.recipe-item{
+    width: 25%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.recipe-item h3{
+    color:#0a3d62;
 }
