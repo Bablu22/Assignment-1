@@ -7,12 +7,24 @@ body{
     width: 90%;
     margin: auto;
 }
+.flexible{
+    display: flex;
+}
+section{
+    padding-bottom: 0px;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+.half-width{
+    width: 50%;
+}
 /* ========= Header area ========== */
 header{
     height: 100vh;
-}
-.nav{
-    display: flex;
+    padding-bottom: 200px;
+    margin: auto;
 }
 .nav img{
     width: 60px;
@@ -37,10 +49,9 @@ header{
     color: #FE4D30 !important;
     font-weight: bold;
 }
+
 /* ========== Banner area ======== */
-.banner{
-    display: flex;
-}
+
 .banner-content{
     width: 50%;
     margin: auto;
@@ -52,15 +63,11 @@ header{
 .banner-content p{
     font-size: 1.2em;
     color: gray;
+    font-weight: 100;
+    padding-bottom: 10px;
 }
 .banner-content span{
     color: orange;
-}
-.banner-img{
-    width: 50%;
-}
-.banner-img img{
-    width: 100%;
 }
 .btn{
     text-decoration: none;
@@ -71,4 +78,28 @@ header{
     color: white;
     font-weight: bold;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* ========== About Area ========= */
+.about-area{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    margin: auto;
+}
+.about{
+    margin-top: 60px;
+}
+.about-content{
+    margin: auto;
+}
+.about-content h2{
+    font-size: 2.2em;
+    color: tomato;
+}
+.about-content p{
+    text-align: justify;
+    padding-bottom: 20px;
+    color: gray;
 }
