@@ -3,3 +3,72 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* ========= Header area ========== */
+header{
+    height: 100vh;
+}
+.nav{
+    display: flex;
+}
+.nav img{
+    width: 60px;
+    margin-top: 10px;
+    
+}
+.nav-item{
+    text-align: right;
+    margin-left:570px;
+}
+.nav-item li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+}
+.active{
+    color: #FE4D30 !important;
+    font-weight: bold;
+}
+/* ========== Banner area ======== */
+.banner{
+    display: flex;
+}
+.banner-content{
+    width: 50%;
+    margin: auto;
+}
+.banner-content h1{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.banner-content p{
+    font-size: 1.2em;
+    color: gray;
+}
+.banner-content span{
+    color: orange;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1em;
+    background-image: linear-gradient(#ff416d,#ff4b2bf6);
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
