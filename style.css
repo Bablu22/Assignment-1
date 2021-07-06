@@ -19,10 +19,12 @@ section{
     width: 100%;
 }
 img{
-    width: 100%;
+    width:80%;
+    margin: auto;
 }
 .half-width{
     width: 50%;
+    margin: auto;
 }
 /* ========= Header area ========== */
 header{
@@ -54,7 +56,6 @@ header{
 }
 
 /* ========== Banner area ======== */
-
 .banner-content{
     width: 50%;
     margin: auto;
