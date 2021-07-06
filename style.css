@@ -16,6 +16,7 @@ body{
 section{
     padding-bottom: 0px;
     height: 100vh;
+    width: 100%;
 }
 img{
     width: 100%;
@@ -86,7 +87,7 @@ header{
 .about-area{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     margin: auto;
@@ -111,15 +112,15 @@ header{
 .recipie-area{
     padding-bottom: 200px;
 }
-.recipie-head{
+.section-head{
     text-align: center;
     padding-top: 15px;
 }
-.recipie-head h2{
+.section-head h2{
     font-size: 2.2em;
     color: tomato;
 }
-.recipie-head p{
+.section-head p{
     text-align: inherit;
     width: 60%;
     margin: auto;
@@ -134,4 +135,42 @@ header{
 }
 .recipe-item h3{
     color:#0a3d62;
+}
+/* ========== Review Section ========== */
+.review-area{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-item{
+    text-align: center;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+.review-item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.review-item h3{
+    color:#706fd3;
+    font-size: 1.5em;
+}
+.review-dot{
+    margin: auto;
+    justify-content: center;
+}
+.dots{
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+}
+.dot-active{
+    background-color: #B53471 !important;
 }
