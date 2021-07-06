@@ -30,14 +30,13 @@ header{
     padding-bottom: 200px;
     margin: auto;
 }
-.nav img{
-    width: 60px;
-    margin-top: 10px;
-    
+.nav h2{
+    color:#eb3313;
+    font-weight: bolder;
 }
 .nav-item{
     text-align: right;
-    margin-left:570px;
+    margin-left:500px;
 }
 .nav-item li {
     display: inline-block;
@@ -50,7 +49,7 @@ header{
     font-weight: bold;
 }
 .active{
-    color: #FE4D30 !important;
+    color: #10af8d !important;
     font-weight: bold;
 }
 
