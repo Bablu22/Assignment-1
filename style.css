@@ -123,6 +123,9 @@ header{
     margin: auto;
     padding-bottom: 40px;
 }
+.recipe-item img{
+    width: 100%;
+}
 .recipe-item{
     width: 25%;
     padding: 20px;
