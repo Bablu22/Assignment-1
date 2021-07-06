@@ -56,12 +56,15 @@ header{
 }
 
 /* ========== Banner area ======== */
+.banner-img{
+    text-align: right;
+}
 .banner-content{
     width: 50%;
     margin: auto;
 }
 .banner-content h1{
-    font-size: 3em;
+    font-size: 3.2em;
     margin-bottom: 15px;
 }
 .banner-content p{
@@ -90,12 +93,6 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin: auto;
-}
-.about{
-    margin-top: 60px;
-}
-.about-content{
     margin: auto;
 }
 .about-content h2{
